@@ -1,3 +1,5 @@
+## Final goal: upload a tidy dataset with the average of each variable for each activity and each subject
+
 ## READ COMMON INFO
 
 ## Read column names
@@ -90,8 +92,5 @@ summary_data <- summary_data[order(summary_data$id_user, summary_data$id_activit
 summary_data <- subset(summary_data[,c(1,2,5:37)])
 
 ## Create new dataset with the average per user and activity
-write.table(summary_data, "averages.txt", sep=" ", dec=".", col.names=TRUE, row.names=FALSE)
-
-
-        
+write.table(summary_data, "averages.txt", sep=" ", dec=".", col.names=TRUE, row.names=FALSE)    
 

@@ -1,5 +1,5 @@
-In this folder you can find the "run_analysis.R" file. This file works with the "Human Activity Recognition Using Smartphones" data set. In the next lines, a description of the code will be done.
-
+In this folder you can find the "run_analysis.R" file and the "CodeBook.md" associated. This file works with the "Human Activity Recognition Using Smartphones" data set. In the next lines, a description of the code will be done.
+ 
 - Step 1: read common info from the "UCI HAR Dataset" directory:
 	> Read column names
 	
@@ -41,6 +41,6 @@ In this folder you can find the "run_analysis.R" file. This file works with the 
 
 		5.4. Creates a second, independent tidy data set with the average of each variable for each activity and each subject. 
 		
-		output: "averages.txt" -> this file will contain the final result of the exercise.
+output: "averages.txt" -> this file will contain the final result of the exercise.
 
 
